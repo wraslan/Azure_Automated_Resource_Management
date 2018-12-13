@@ -1,2 +1,2 @@
-# Azure_Automated_Resource_Management
+# Microsoft Azure Cloud Automated Resource Management
 Microsoft PowerShell solutions to automate Azure cloud resource management
