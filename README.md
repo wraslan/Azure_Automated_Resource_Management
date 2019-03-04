@@ -1,7 +1,8 @@
 # Microsoft Azure Cloud Automated Resource Management
 Microsoft PowerShell solutions to automate Azure cloud resource management
 
-**CAUTION: This solution automatically removes resources from Azure subscriptions so it is not intended to be used on production subscriptions, the author is not responsible for any missuse of this solution.
+**CAUTION:
+This solution automatically removes resources from Azure subscriptions so it is not intended to be used on production subscriptions, the author is not responsible for any missuse of this solution.
 You need to confirm you fully understand that this solution will remove resources from your subscription before execution**
 
 **Azure VM Resources Saver removes below VM resources from Azure subscriptions in parallel using Microsoft PowerShell Workflow technology:**
@@ -20,6 +21,7 @@ Or Any VM tagged with one of the following tags in 'tagged' removal mode: {remov
 6- All managed data disks attached to the removed VMs
 
 **VM resources preserved**:
+
 1- Network Security Group (NSG)
 
 2- Virtual Network (VNET)
