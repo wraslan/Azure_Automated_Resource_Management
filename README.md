@@ -8,14 +8,22 @@ You need to confirm you fully understand that this solution will remove resource
 
 1- Any VM not tagged with one of the following tags in 'untagged' removal mode: {keep, do not remove}
 Or Any VM tagged with one of the following tags in 'tagged' removal mode: {remove}.
+
 2- Boot diagnostics storage container of the removed VMs
+
 3- All NICs associated with the removed VMs
+
 4- All Public IPs associated with the removed VMs
+
 5- Managed & unmanaged OS disks of the removed VMs and their VHD & status blobs
+
 6- All managed data disks attached to the removed VMs
 
 **VM resources preserved**:
 1- Network Security Group (NSG)
+
 2- Virtual Network (VNET)
+
 3- Resource group
+
 4- Storage accounts of boot diagnostics and unmanaged disks
